@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    text-align: center;
+    text-align: right;
     padding: 20px;
+    color: rgb(0, 0, 0);
 }
-
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -20,16 +20,20 @@ header {
 .card {
     background: white;
     border: 2px solid #000000;
+    margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
 }
 
 .tag {
-    background: #eee;
+    
+    background: #ffffff;
     padding: 3px 8px;
-    border-radius: 6px;
+    border-radius: 10px;
     font-size: 12px;
     margin-right: 5px;
+    border: 2px solid #000000
+    
 }
 
 h2 {
@@ -49,10 +53,31 @@ h2 {
 }
 
 .btn-info {
-    background: #f2f2f2;
+    width: 180px;
+    height:40px;
+    margin: 0 auto;
+    border-radius: 40px;
+    background: #ffffff;
+    color: #ff0000;
+    border: 2px solid rgb(255, 0, 0)
+    
 }
 
 .btn-inscrever {
-    background: #ff0015;
+    width: 180px;
+    height:40px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: #ff0000;
     color: white;
+    border-radius: 40px;
+}
+
+.logo {
+    height: 30px;
+    width: 95px;
+    display: block;
+    margin-top: 100px;
+    position: absolute;
+
 }
